@@ -1,0 +1,99 @@
+.login_page_top {
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 112px;
+    min-height: 100vh;
+    
+}
+
+.image_slogan {
+    position: relative;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+.image_slogan img {
+    height: 106px;
+    margin: -28px;
+    line-height: 1.34;
+}
+
+.image_slogan h2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.login_button {
+    padding: 20px;
+}
+
+.login_on {
+    cursor: pointer;
+    color: #fff;
+    background-color: #1877f2;
+    border: none;
+    width: 332px;
+    line-height: 48px;
+    padding: 0 16px;
+    font-size: 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+
+.login_on:hover {
+    background-color: #166fe5;
+}
+
+.login_page_footer {
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+    background-color: white;
+}
+
+.language_select {
+    display: flex;
+    list-style: none;
+    color: #8A8D91;
+    
+}
+
+.language_select li{
+  padding: 10px;
+  font-size: .8888rem;
+}
+
+.language_select li:hover{
+    text-decoration: underline;
+}
+
+.language_select li:first-child{
+    text-decoration: none;
+    color: #737373;
+}
+
+.social_list {
+    display: flex;
+    list-style: none;
+}
+
+.social {
+    font-size: .8888rem;
+    padding: 10px; 
+    display: inline;
+}
+.border {
+    border-bottom: 1px solid #a5a4a4;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+

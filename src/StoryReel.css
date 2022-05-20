@@ -1,0 +1,14 @@
+.story_reel {
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.story_reel::-webkit-scrollbar {
+    display: none;
+}
+
+.story_reel {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

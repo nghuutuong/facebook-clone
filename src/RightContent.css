@@ -1,0 +1,4 @@
+.right_content {
+    position: sticky;
+    z-index: 1;
+}

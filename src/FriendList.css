@@ -1,0 +1,52 @@
+.friend_list {
+    width: 360px;
+}
+.friend {
+    width: 344px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    line-height: 1.3333;
+}
+.friend:hover {
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(226, 224, 222);
+}
+.friend img {
+    margin-left: 10px;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    border-radius: 25px;
+    
+}
+.friend span {
+    font-size: .9375rem;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.friend_option {
+    margin-top: 10px;
+}
+.friend_avatar {}
+
+.online_circle {
+    background-color: rgb(8, 172, 8);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin-left: 28px;
+    margin-top: 17px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+.widget {
+    margin-bottom: 15px;
+}
+
+.hr{
+    border-top: 1px solid #b4b1b1;
+    width: 300px;
+}

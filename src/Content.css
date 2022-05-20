@@ -1,0 +1,33 @@
+:root{
+    --search-color :rgba(241, 239, 239, 0.8);
+    --primary-button-background: #1B74E4;
+    --header-height: 56px;
+}
+
+.content{
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: calc(100vh - var(--header-height));
+    background-color: var(--search-color);
+    flex-shrink: 9999;
+}
+
+.left_content_main {
+    top: 0;
+    
+
+}
+
+.center_content_main {
+   overflow-y: scroll;
+    margin-top: 20px;
+    position: relative;
+    overflow: auto;
+}
+
+.right_content_main {
+    margin-top: 30px;
+    top: 0; 
+}
